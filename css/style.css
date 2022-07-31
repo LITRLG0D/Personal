@@ -40,7 +40,7 @@ nav ul {
 nav li {
     display: inline-block;
     margin-left: 70px;
-    padding-top: 25px;
+    padding-top: 50px;
 
     position: relative;
 
@@ -68,4 +68,33 @@ nav a::before {
 }
 nav a:hover::before {
     width: 100%;
+}
+.keyb-text {
+    position: relative;
+    margin: 0;
+    padding-right: 0;
+}
+.centered {
+    font-size: 100px;
+    text-transform: uppercase;
+    color: #55d6aa;
+    text-shadow: 1px 1px 2px rgb(79, 82, 81), 0 0 1em rgb(80, 160, 136), 0 0 0.2em rgb(80, 160, 136);
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 500px;
+}
+.right {
+    font-size: 50px;
+    text-transform: uppercase;
+    color: aliceblue;
+    text-shadow: 1px 1px 2px rgb(79, 82, 81), 0 0 1em rgb(80, 160, 136), 0 0 0.2em rgb(80, 160, 136);
+    position: absolute;
+    top: 0; right: 0;
+    bottom: 0; left: 0;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 900px;
 }
